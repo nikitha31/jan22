@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ConsoleApp1</name>
+    </assembly>
+    <members>
+        <member name="T:ConsoleApp1.Calculator">
+            <summary>
+            Calculator class
+            Has methods to perform mathematical operations.
+            <list type="bullet">
+            <item>
+            <term>Add</term>
+            <description>Addition Operation</description>
+            </item>
+            <item>
+            <term>Sub</term>
+            <description>Subtraction Operation</description>
+            </item>
+            <item>
+            <term>Mul</term>
+            <description>Multiplication Operation</description>
+            </item>
+            <item>
+            <term>Div</term>
+            <description>Division Operation</description>
+            </item>
+            </list>
+            </summary>
+            <remarks>
+            This class can add, subtract, multiply and divide.
+            </remarks>
+        </member>
+        <member name="M:ConsoleApp1.Calculator.Add(System.Int32,System.Int32)">
+            <summary>
+            Adds two integers <paramref name="x"/> and <paramref name="y"/> and returns the result as <paramref name="z"/>.
+            </summary>
+            <param name="x">an integer type number </param>
+            <param name="y">an integer type number </param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleApp1.Calculator.Sub(System.Int32,System.Int32)">
+            <summary>
+            performs substraction on two integers <paramref name="x"/> and <paramref name="y"/> and returns the result as <paramref name="z"/>.
+            </summary>
+            <param name="x">an integer type number </param>
+            <param name="y">an integer type number </param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleApp1.Calculator.Mul(System.Int32,System.Int32)">
+            <summary>
+            performs multiplication on two integers <paramref name="x"/> and <paramref name="y"/> and returns the result as <paramref name="z"/>.
+            </summary>
+            <param name="x">an integer type number </param>
+            <param name="y">an integer type number </param>
+            <returns></returns>
+        </member>
+        <member name="M:ConsoleApp1.Calculator.Div(System.Int32,System.Int32)">
+            <summary>
+            performs division on two integers <paramref name="x"/> and <paramref name="y"/> and returns the result as <paramref name="z"/>.
+            </summary>
+            <param name="x">an integer type number </param>
+            <param name="y">an integer type number </param>
+            <returns></returns>
+            <exception cref="T:System.DivideByZeroException">Thrown when the second parameter is zero
+            </exception>
+        </member>
+    </members>
+</doc>
